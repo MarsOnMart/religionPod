@@ -163,14 +163,9 @@ nav{
 .search{
    
     top:40% ;
-    padding: 1.6%;
-    font-size: 1.2rem;
-    height: 5%;
-    width: 30% ;
+
     z-index:100;
-    border-radius: -10%;
-    background-color: rgba(0,0 , 0,0) ; 
-    pointer-events: initial;   
+
 }
 .search * {
     height: 5%;
