@@ -169,10 +169,13 @@ nav{
     width: 30% ;
     z-index:100;
     border-radius: -10%;
-    background-color: rgb(240, 240, 240) ; 
+    background-color: rgba(0,0 , 0,0) ; 
     pointer-events: initial;   
 }
-
+.search * {
+    height: 5%;
+    width: 30% ;
+}
 h1{
     display: block;
     position: absolute;
