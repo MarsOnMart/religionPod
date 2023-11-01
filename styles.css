@@ -163,13 +163,14 @@ nav{
 .search{
    
     top:40% ;
-
+    max-height: 5%;
+    max-width: 30% ;
     z-index:100;
 
 }
 .search * {
-    height: 5%;
-    width: 30% ;
+    height: 100%;
+    width: 100% ;
 }
 h1{
     display: block;
