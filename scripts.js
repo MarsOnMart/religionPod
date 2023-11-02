@@ -1,3 +1,17 @@
+window.addEventListener("laod",()=>{
+  const loader = document.getElementsByClassName(".loader");
+  
+  
+  loader.classList.add("hidden");
+
+  loader.addEventListener("transitioned",()=>{
+    
+    document.body.removeChild("loader");
+    
+  });
+ 
+})
+
 const parallax_el = document.querySelectorAll(".abs");
 
 let x = 0;
@@ -20,9 +34,10 @@ window.addEventListener("mousemove",
         if (el.classList[1] == "p-12" ){
           el.style.transform = "scaleX(-1)";
         }
+        /*
         else if (el.classList[1] == "p-10" ){
           el.style.transform = "scaleX(-1)";
-        }
+        }*/
           
       }
     )
@@ -54,3 +69,5 @@ buttons.forEach(el=>{
 
 
 console.log("height : ", window.innerHeight , "/n" ,"width : ",window.innerWidth);
+
+
