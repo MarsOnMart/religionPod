@@ -170,12 +170,13 @@ nav{
     font-size: 1.2rem;
     height: 100%;
     width: 100% ;
-
+    pointer-events:auto;
 }
 .search * {
-    position:absolute;
+  
     height: 100%;
     width: 100% ;
+    pointer-events:auto;
 }
 h1{
     display: block;
