@@ -168,6 +168,8 @@ nav{
     z-index:100;
  
     font-size: 1.2rem;
+    height: 100%;
+    width: 100% ;
 
 }
 .search * {
